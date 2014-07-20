@@ -6,7 +6,7 @@ schema:
   name: 客拼
   version: "0.12"
   author:
-    - 佛振 <chen.sst@gmail.com>
+    - 
   description: |
     採用大陸客家語拼音方案
     http://hakka.dict.edu.tw/hakkadict/index.htm
