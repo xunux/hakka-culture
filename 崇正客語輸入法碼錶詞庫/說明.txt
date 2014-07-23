@@ -1,0 +1,2 @@
+此為從 崇正客語輸入法 碼錶中提取出來的客家語字詞庫，僅作學習使用，版權仍歸SYNDICT.COM 所有。
+網址：http://syndict.com/hakka/ime/
