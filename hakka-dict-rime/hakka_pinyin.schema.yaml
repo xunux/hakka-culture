@@ -70,7 +70,7 @@ speller:
 
 translator:
   dictionary: hakka_pinyin
-  spelling_hints: 5
+  spelling_hints: 9
 
 reverse_lookup:
   dictionary: luna_pinyin
