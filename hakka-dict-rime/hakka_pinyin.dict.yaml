@@ -42,7 +42,9 @@ min_phrase_weight: 100
 此樣	diong
 頂	diang
 頂	dang
-
+𧞐	duk
+𧞐	det
+𧞐地
 仔	e
 
 話	fa
@@ -291,10 +293,10 @@ min_phrase_weight: 100
 #屋宅名稱 	四縣腔音讀 	海陸腔音讀 	對應華語
 屋頂	vuk diang
 屋簷	vuk iam
-窗門(窗仔)	cung mun
+窗門	cung mun
 門段	mun tun
 臺階
-門檻(戶檻)	mun kiam
+門檻	mun kiam
 門檻
 門	mun
 壁	biak
@@ -302,10 +304,10 @@ min_phrase_weight: 100
 柱仔	zut e
 柱子
 桁仔(梁仔)	hang e
+桁	pang
 屋梁
 棟梁	dung liong
-桷皮(桷仔) 
-gok e
+桷皮	gok e
 桷子
 椽子
 瓦仔	nga e
@@ -321,8 +323,8 @@ gok e
 正身	ziin siin
 正廳	zen tiang
 丹墀坪	dan cii piang
-(天時坪)
-(內埕仔)
+天時坪
+內埕仔
 院子
 
 #四季、方位、干支及五行表(讀音表) 
@@ -382,585 +384,363 @@ gok e
 
 
 #客家語詞目 	四縣腔音讀 	海陸腔音讀 	解釋 	備註
-恁久	an giu
-an giu 	近來、很久 	　
+恁久	an giu　
 包尾	bau mi
-bau mui 	最後 	　
+包尾	bau mui　
 本旦	bun dan
-bun dan 	本來、原來 	　
+本旦	bun dan　
 本來	bun loi
-bun loi 	本來 	　
 自來	cii loi
-cii loi 	一向 	　
 逐擺	dag bai
-dag bai 	每每、每次 	　
+逐擺	dag bai
 登時	den sii
-den shi 	立刻 	　
-到	do
-do 	在 	　
+登時	den shi
+到	do　
 到該	do ge
-do gai 	正在、在那兒 	　
+到該	do gai
 到今	do gim
-do gim 	迄今 	海陸腔音讀為do gim。
 當初	dong cu
-dong cu 	當初 	　
 當下	dong ha
-dong ha 	立刻 	　
-睹睹	du du
-du du 	剛剛 	　
+睹睹	du du　
 該下	ga ha
-gai ha 	剛才 	又讀ge ha。
+該下	gai ha
+該下	ge ha
 既經	gi gin
-gi gin 	已經 	又讀gi gin。
 遽遽	giag giag
-giag giag 	趕快 	　
-見擺	gien bai
-gien bai 	每次 	　
-趕遽	gon giag
-gon giag 	趕快、趁早 	　
+見擺	gien bai　
+趕遽	gon giag　
 趕緊	gon gin
-gon gin 	趕緊 	　
 下把仔	ha ba e
-ha ba 	有時候、偶爾 	　
-下擺	ha bai
-ha bai 	下一次 	　
-下二擺	ha ngi bai
-ha ngi bai 	下次、以後 	　
+下把	ha ba　
+下擺	ha bai　
+下二擺	ha ngi bai　
 下二擺	ham bai
-ham bai 	下次、以後 	「下二」為合音字，唸ham。
 還吂	han mang
-han mang 	尚未 	　
+還吂	hai mang
 旋風	hien fung
-hien fung 	突然 	另讀作「xien fung」。
-旋旋風	hien hie
-fung 
-hien hien
-fung 	突然 	　
+旋風	xien fung
+旋旋風	hien hie fung 
+hien hien fung 	突然 	　
 現下	hien ha
-hien ha 	目前 	　
-好恬恬	ho diam diam
-ho diam diam 	突然 	　
+好恬恬	ho diam diam　
 好好恬恬	ho ho diam diam
-ho ho diam diam 	突然 	　
 這下	ia ha
-lia ha 	現在、這會兒 	新竹音讀為lia。
+這下	lia ha
 一半下	it ban ha
-rhid ban ha 	偶爾 	或作「一半下仔」。
+一半下	rhid ban ha
 一駁仔	id bok e
-rhid bog er 	一段時間 	　
-一直	it ciit
-rhid chid 	一直、始終 	　
+一駁仔	rhid bog er
+一直	it ciit　
 一旦	it dan
-rhid dan 	一向 	　
 一下	it ha
-rhid ha 	現在、一下、一會兒 	　
 一下半下	it ha bam ha
-rhid ha ban ha 	三兩下 	　
 一下仔	it ha e
-rhid ha er 	一會兒 	　
 一向	it hiong
-rhid hiong 	一向 	　
 一溜來	it liu loi
-rhid liu loi 	一向 	完整詞目為「一路裡來」，或作「一溜仔」。
 一路裡來	it lu li loi
-rhid lu li loi 	一向 	　
 輒輒	jiap jiap
-ziab ziab 	常常 	　
+輒輒	ziab ziab
 輒常	jiap song
-ziab shong 	時常 	　
+輒常	ziab shong
 臨及及	lim kip kip
-lim kib kib 	急忙 	　
 臨尾	lim mi
-lim mui 	最後、後來 	　
+臨尾	lim mui
 臨時	lim sii
-lim shi 	臨時 	　
 臨時及急	lim sii kip gip
-lim shi kib gib 	臨時、倉促、時間緊迫 	　
 臨時及日	lim sii kip ngit
-lim shi kib ngid 	事到臨頭 	　
 臨時臨及	lim sii lim kip
-lim shi lim kib 	急急忙忙 	　
-每擺	mi bai 
-mui bai
-每每、每次 	　
+每擺	mi bai
 無幾久	mo gi giu
-mo gi giu 	沒多久 	　
 無提防	mo ti fong
-mo ti fong 	突然 	　
-無提無防	mo ti mo fong 
-mo ti mo fong 	突然 	　
+無提無防	mo ti mo fong
 黏邊	ngiam bien
-ngiam bien 	立刻 	　
 黏皮	ngiam pi
-ngiam pi 	立即 	　
 黏時	ngiam sii
-ngiam shi 	馬上 	　
-原在	ngien cai 
-	以前、原來 	　
-原旦	ngien dan 
-ngien dan 	以前、本來 	　
+原在	ngien cai　
+原旦	ngien dan
 盡尾	qin mi 
-cin mui 	最後 	　
 盡先	qin xien 
-cin sen 	最初 	　
 就	qiu 
-ciu 	就 	　
+就	ciu　
 就愛	qiu oi 
-ciu oi 	將要、就要 	　
+就愛	ciu oi
 就會	qiu voi 
-ciu voi 	將要、就要 	　
+就會	ciu voi
 從來	qiung loi 
-ciung loi 	從來 	　
+從來	ciung loi　
 成擺	sang bai 
-shang bai 	偶爾一次 	　
 成下仔	sang ha e 
-shang ha er 	偶爾 	　
+成下仔	shang ha er
 成滿	sang man 
-shang man 	偶爾一次 	　
 成時	sang sii 
-shang shi 	有時 	　
-識 
-siid 
-shid 
-曾經 	　
+識	siid  
 上年	song ngien 
-shong ngien 	以前 	　
 上早	song zo 
-shong zo 	稍早、以前 	　
-隨時	sui sii 
-sui shi 	隨時 	　
+隨時	sui sii
 跈等	ten den 
-ten den 	立刻、跟著 	　
 頭擺	teu bai 
-teu bai 	以前、從前、第一次 	　
-頭到	teu do 
-teu do 	先前 	　
+頭到	teu do 　
 頭回	teu fi 
-teu fui 	先前 	　
+頭回	teu fui
+頭回	teu fe
 頭過	teu go 
-teu go 	以前 	　
-頭下	teu ha 
-teu ha 	剛才 	　
+頭下	teu ha 　
 頭先	teu xien 
-teu sen 	剛才 	　
 往擺	vong bai 
-vong bai 	以前 	　
 正	zang 
-zhang 	才 
-六堆音讀為nang。
+正	nang
 早年	zo ngien 
-zo ngien 	以前、早先 	　
-早就	zo qiu (zu) 
-zo ciu 	早已 	　
+早就	zo qiu
+早就	zo ciu
 早先	zo xien 
-zo sen 	以前、早先 	　
+早先	zo sen
 總係	zung he 
-zung he 	總是 	　
 #2.方位副詞：表示動作的地位、方向、遠近或高下。
 背	boi 
-boi 	後面、後邊 	　
 背尾	boi mi 
-boi mui 	後面 	　
+背尾	boi mui
 底下	dai ha 
-dai ha 	底下 	　
-頂項	dang hong 
-dang hong 	頂端、上面 	　
+頂項	dang hong 　
 裡背	di boi 
-di boi 	裡面 	　
 裡肚	di du 
-di du 	裡面 	　
 對中	di dung ong 
-du dung  	中間 
-國語【正中間】：四縣作「對中央」，海陸作「對中」。
 中央	dung ong 
-dung ong 	中央 	　
-該搭(位)仔	ge dab(vi) e 
-gai dab(vui) er 
-那裡 	　
+該搭仔	ge dab e 
 下	ha 
-ha 	裡、方位 
-例：「屋下」。
 下背	ha boi 
-ha boi 	下面 	　
-後背	heu boi 
-heu boi 	後面、後來、然後 	　
+後背	heu boi
 項	hong 
-hong 	裡、內、上 	　
-這搭(位)仔	ia dab e 
-lia dab er 	這裡 	　
+這搭仔	ia dab e 
 尾項	mi hong 
-mui hong 	後面 	　
 面前	mien qien 
-mien cien 	前面 	　
-外背	ngo boi 
-ngo boi 	外面 	　
- 
-pien 
-pien 
-邊 	　
+外背	ngo boi 　
 上	song 
-shong 	裡、內 	　
-上背	song boi 
-shong boi 	上面 	　
-脣項	sun hong 
-shun hong 	旁邊 	　
+上背	song boi 　
+脣項	sun hong 　
 脣頭	sun teu 
-shun teu 	旁邊 	　
-頭	teu 
-teu 	面、邊、頭、端 	　
-頭項	teu hong 
-teu hong 	前面 	　
+頭	teu 　
+頭項	teu hong 　
 頭前	teu qien 
 teu cien 	前面 	　
-3.頻率副詞：表示動作或事物的重復、連續、併列。
+#3.頻率副詞：表示動作或事物的重復、連續、併列。
 擺擺	bai bai 
-bai bai 	屢次 	　
-逐擺	dag bai 
-dag bai 	每次 	　
+逐擺	dag bai
 逐次	dag cii 
-dag cii 	每次 	　
 逐回	dag fi 
-dag fui 	每回 	　
 逐輪	dag lin 
-dag lin 	每次 	　
 幾下擺	gi ha bai 
-gi ha bai 	好幾次 	　
 見擺	gien bai 
 gien bai 	每次 	　
-下把(仔)	ha ba e 
-ha ba 	有時、偶爾、有時候 	四縣為「下把仔」；海陸為「下把」。
+下把仔	ha ba e 
+下把	ha ba
+#有時、偶爾、有時候 	四縣為「下把仔」；海陸為「下把」。
 也	ia 
-rha 	也 	　
 一半下	id ban ha 
-rhid ban ha 	有時候 	或作「一半下仔」。
 一下半下	id ha ban ha 
-rhid ha ban ha 	三兩下 	　
 又	iu 
-rhiu 	又 	　
 又過	iu go 
-rhiu go 	又再 	　
 又乜	iu me 
-rhiu me 	也 	　
-共樣 
-kiung iong 
-kiung rhong 	仍然、依舊 	　
-共款 
-kiung kuan 
-kiung kuan 	仍然、依舊 	　
+共樣	kiung iong 
+共款	kiung kuan
 乜	me 
-me 	也 	　
 每擺	mi bai 
-mui bai 	每次 	　
 續	sa 
-sa 	也、竟然、卻 	　
 再	zai 
-zai 	再 	　
 再過	zai go 
-zai go 	又再 	　
 再三	zai sam 
-zai sam 	再三 	　
 #4.程度副詞：表示性質狀態和心理活動程度。
 恁	an 
-an 	很 	　
 當	dong 
-dong 	很 	　
 緊	gin 
-gin 	越 	　
 蓋	goi 
-goi 	很 	（六堆用法）
 還過	han go 
-han go 	又再 	　
 還較	han ka 
-han ha 	更加 	　
 已	i 
-i 	很 	　
 一等	id den 
-rhid den 	最 	　
 越	ied 
-rhad 	越 	　
 越勢	ied sii 
-rhad shi 	越發 	　
-有兜(仔)	iu deu e 
-rhiu deu 	有點 	四縣為「有兜仔」；海陸為「有兜」。
+有兜仔	iu deu e 
 較	ka
-ha 	較 	　
 極	kid 
-kid 	極、非常 	　
 略略	liog liog 
-liog liog 	略微 	　
 盡	qin 
-cin 	最 	程度上四縣指「最」；海陸指「很」。
 大約	tai iog 
-tai rhog 	大約 	　
 大概	tai koi 
-tai koi 	大概 	　
 忒	ted 
-ted 	太 	　
 忒過	ted go 
-ted go 	太過 	　
 #5.範圍副詞：表示動作或事物的範圍。
 單淨	dan qiang 
-dan ciang 	只、只有 	　
+單淨	dandan ciang
 歸下	gui ha 
-gui ha 	總共、全部 	　
 歸棚	gui pang 
-gui pang 	到處、全部 	　
 陷下	ham ha 
-ham ha 	總共、全部 	　
 也有	ia iu 
-rha rhiu 	也有 	　
 一共	id kiung 
-rhid kiung 	一共 	　
 共下	kiung ha 
-kiung ha 	一起、總共 	前接動詞。如：「放共下」。
 攏總	lung zung 
-lung zung 	總共 	　
 滿哪	man nai 
-man nai 	到處、全部 	　
 滿棚	man pang 
-man pang 	到處、全部 	　
 滿遍	man pien 
-man pien 	到處、全部 	　
 滿位	man vi 
-man vui 	到處、全部 	　
 乜有	me iu 
-me rhiu 	也有 	　
 攬總	nam zung 
-lam zung 	全部 	　
 淨	qiang 
-ciang 	只、只有 	　
+淨	ciang
 淨有	qiang iu 
-ciang rhiu 	只有 	　
+淨有	ciang rhiu
 淨淨	qiang qiang 
-ciang ciang 	只、只有 	　
 全棚	qion pang 
-cion pang 	到處、全部 	　
 全部	qion pu 
-cion pu 	全部 	　
 就	qiu 
-ciu 	都、只 	　
+就	ciu
 通棚	tung pang 
-tung pang 	到處、全部 	　
 通體	tung ti 
-tung ti 	全部 	　
 通通	tung tung 
-tung tung 	全部 	　
 完棚	van pang 
-van pang 	到處、全部 	　
 完下	von ha 
-van ha 	總共、全部 	　
 正	zang 
-zhang 	只、只有 	　
 做斗	zo deu 
-zo deu 	總共、全部 	　
 做下	zo ha 
-zo ha 	全部、總共 	　
 做一下	zo id ha 
-zo rhid ha 	全部、總共 	　
 做盡	zo qin 
-zo cin 	總共、全部 	　
 總	zung 
-zung 	只、只有 	　
 總下	zung ha 
-zung ha 	總共、全部 	　
 總共	zung kiung 
-zung kiung 	總共 	　
 總棚 
-zung pang 	zung pang 	到處、全部 	　
 #6.然否副詞：表示否定和肯定的語氣。
 包準	bau zun 
-bau zhun 	一定 	　
 斷真	don ziin 
-don zhin 	果然 	　
 當然	dong ien 
-dong rhan 	一定、絕對 	　
 決定	gied tin 
-gied tin 	一定、絕對 	　
 肯	hen 
-hen 	肯 	　
 一定	id tin 
-rhid tin 	一定、必定 	　
 確係	kog he 
-kog he 	一定、絕對 	　
 確確	kog kog 
-kog kong 	一定、絕對 	　
 確實	kog siid 
-kog shid 	一定、絕對 	　
 確定	kog tin 
-kog tin 	一定、絕對 	　
-毋	m 
-m 	不 	　
+毋	m
+毋	ng
 毋使	m sii 
-m sii 	不必 	　
 吂	mang 
-mang 	未、尚未 	　
 無	mo 
-mo 	沒、沒有 	　
 無定	mo tin 
-mo tin 	未定 	　
 莫	mog 
-mog 	不要 	　
 無愛	mo oi 
-mo oi 	不要 	「無愛」為合音字，唸moi。
+無愛	moi
 絕對	qied dui 
-cied dui 	絕對 	　
 定著	tin cog 
-tin chog 	一定、必然 	　
 準	zun 
-zhun 	一定 	　
 #7.疑問副詞：表示疑問的語氣。
 斷真	don ziin 
-don zhin 	當真 	　
 幾	gid 
-gid 	多少、多久、如何 	如︰「幾多」、「幾久」、「幾會」…。「幾」後加量詞、名詞時讀音為gi；接形容詞，表加強語氣時讀作gid。
+幾	gigid
+幾多
+幾久
+幾會
 哪	nai 
-nai 	如何、怎、哪 	如：「哪久」、「哪位」、「哪會」、「哪識」、「哪肯」…
+哪久
+哪位
+哪會
+哪識
+哪肯
 樣	ngiong 
-ngiong 	怎樣、怎麼 	如：「樣般」、「樣仔」…
+樣般
+樣仔
 #8.情狀副詞：表示事物實際狀況的副詞。
 斷真	don ziin 
-don zhin 	真的 	　
 睹睹	du du 
-du du 	剛好 	如：「睹睹恁多」。
 睹好	du ho 
-du ho 	剛好 	　
 反正	fan ziin 
-fan zhin 	反正 	　
 昏昏	fun fun 
-fun fun 	無精打采 	　
 敢係	gam he 
-gam he 	難道 	　
 檢採	giam cai 
-giam cai 	如果、萬一 	　
 夠夠	gieu gieu 
-gieu gieu 	剛好 	　
 高不如將	go bud i jiong 
-go bud rhi ziong 	只得、只好 	　
 高不將	go bud jiong 
-go bud ziong 	只得、只好 	　
 該載	goi zai 
-goi zai 	幸虧 	　
 故意	gu i 
-gu rhi 	故意 	　
 好在	ho cai 
-ho cai 	幸虧 	　
 好得	ho ded 
-ho ded 	幸虧 	　
 有影	iu iang 
-rhiu rhang 	真的 	　
 極力	kid lid 
-kid lid 	竭力 	　
 強強	kiong kiong 
-kiong kiong 	硬是 	　
 無採	mo cai 
-mo cai 	可惜、白費 	　
 無影	mo iang 
-mo rhang 	假的 	　
 無成	mo sang 
-mo shang 	難道 	　
 無定	mo tin 
-mo tin 	也許 	　
 硬硬	ngiang ngiang 
-ngiang ngiang 	故意 	　
 蔫蔫	ngiem ngiem 
-ngiem ngiem 	無精打采 	　
 偏偏	pien pien 
-pien pien 	故意 	　
 偏	pien 
-pien 	偏 	　
 暫下	qiam ha 
-ciam ha 	暫且、姑且 	　
 暫時	qiam sii 
-ciam shi 	暫且、姑且 	　
 淨淨	qiang qiang 
-ciang ciang 	只有 	　
 千萬	qien van 
-cien van 	千萬 	　
+千萬	cien van
 透透	teu teu 
-teu teu 	只有 	　
 挑故意	tiau gu i 
-tiau gu rhi 	故意 	　
 挑試	tiau sii 
-tiau shi 	故意 	　
 挑挑	tiau tiau 
-tiau tiau 	故意 	　
 特別	tid pied 
-tid pied 	特別 	　
 至極	zii kid 
-zhi kid 	極度、極至 	　
 正經	ziin gin 
-zhin gin 	真的 	　
 正實	ziin siid 
-zhin shid 	真的 	　
-
 #介詞：介紹名詞或代名詞與另一詞發生關係的詞。用來表示起止、方向、處所、時間、對象、目的等。
 #1.表時間：表示時間名詞介紹給述說詞時所用的介詞。
 #客家語詞目 	四縣腔音讀 	海陸腔音讀 	解釋 	備註
 自從	cii qiung 
-cii ciung 	自從、從來 	自從上擺車禍過後，佢就毋敢駛車了。
-到	do 
-do 	到、在、從 	佢到下晝正轉。
+自從	cii ciung
+到	do
+到	dau
 從	qiung 
-ciung 	從 	佢從朝晨出門做事到臨暗仔正轉。
+從	ciung
 #2.表空間：表示地位、方向等名詞介紹給述說詞時所用的介詞。
-在	cai/coi 
-cai 	在 	1.cai為文讀，如︰在該位。
+在	coi 
+在	cai
 #2.coi為白讀，如︰還在無？
 #3.qi/qid為特殊音讀，如︰在屋下。
 對	di 
-du 	在；從、由 / 在 	海陸為du。
+對	du
 到	do 
-do 	在、到、從、朝、往、由 	你在屋下做麼个？
 對	dui 
-dui 	從、由；對 	1.你對哪來？
 #2.大家對這試著當有興趣。
-跈	ten 
-ten 	沿 	你跈這條路行下去就會到厥屋下。
-佗	to(co) 
-to 	在 	佗這
+跈	ten
+#沿 	你跈這條路行下去就會到厥屋下。
+佗	to
+#在 	佗這
 #3.表對象、關聯
 對	dui 
-dui 	對 	大家對這試著當有興趣。
-任在	im cai 
-rhim cai 	任憑 	任在你樣仔講都法度改變佢个想法。
+任在	im cai
+任憑	ngit pi
+#rhim cai 	任憑 	任在你樣仔講都法度改變佢个想法。
 連	lien 
-lien 	連 	你連這係哪都毋知，愛樣仔尋路轉屋？
-隨（隨在）	sui (sui cai) 
-sui (sui cai) 	聽任、任憑 	等下愛去哪，隨你決定。
-同、摎 
-tung、lau 
-tung、lau 	將、把、替 	佢同自家个衫褲洗淨了。
-同、摎 
-tung、lau 
-tung、lau 	和、與、跟. 	阿姆同阿爸天光日愛出國去尞了。
+隨	sui
+隨在	sui cai
+同	tung
+摎	lau
+#將、把、替 	佢同自家个衫褲洗淨了。
+摎你去
+阿姆同阿爸天光日愛出國去尞了
 #4.表狀態、方式、手段：將名詞或代名詞介入給述說詞，用以說明動作的狀態、方式、手段。
 以	i 
-rhi 	以 	以來講，運動係盡好保健身體个方法。
 用	iung 
-rhung 	用 	佢用手摎目珠揞等。
 靠	ko 
-ko 	靠 	頭擺个農業社會裡肚，人類全係靠天食飯。
+#頭擺个農業社會裡肚，人類全係靠天食飯。
 照	zeu 
-zhau 	按照 	請大家照順序來領成績單。
+照	zhau
 #5.表原因、目的： 將名詞或代名詞介入給述說詞，用以說明動作原因或目的。
 因為	in vi 
-rhin vui 	因為 	因為路項有車禍塞車，故所正較慢到。
 因爭	in zen 
-rhin zen 	因為 	因爭路項有車禍塞車，故所正較慢到。
 為著	vi do 
-vui do 	為了 	為著在這擺行棋比賽得著晉級，佢緊張到歸身大汗。
 #6.表比較和排除
 比	bi 
-bi 	比 	你比吾老妹較高。
 除	cu 
-chu 	除 	除佢無來之外，另外還有一儕人也無來。
 除忒	cu ted 
-chu ted 	除了 	除忒拜三無閒，其它時間都做得。
 #7.表被動和給予
-分佢	bi 	　 	給他 	「分佢」為合音字，唸bi。 如︰這包糖仔係愛分佢个。
-分你	bun 	　 	給你 	「分你」為合音字，唸bun。 如︰這杯茶係愛倒分你个。
-分	bun 
-bun 	給、被 	講一隻笑話分大家來笑啊仔。
+分	bi
+分	fen
+分佢	bi
+分你	bun ngi
 將	jiong 
 ziong 	使、讓 	細義兜仔！莫將茶杯仔打爛忒。
 同、摎 
@@ -970,108 +750,75 @@ tung、lau 	給 	遽遽去摎阿姆帣手。
 
 #連詞：將同種的詞連結起來，或將短語與短語，句和句之連接詞。
 #1.表並列關係：連接二個或二個以上並列的詞、語、句。
-客家語詞目	四縣腔音讀 	海陸腔音讀 	解釋 	備註
+#客家語詞目	四縣腔音讀 	海陸腔音讀 	解釋 	備註
 本來…還較	bun loi…han ka
-本來…更加 	　
 顛倒	dien do
-dien do 	反而 	　
 該恁呢	ge an ne 
-gai an ne 	那麼 	　
-還係	han he 
-han he 	還是、仍是 	　
+還係	han he 　
 係…還係	he…han he 
-he…han he 	是…還是 	　
 係…也係	he…ia he 
-he…rha he 	是…還是 	　
 係恁呢	he an ne
-如此、這樣
 也係	ia he
-還是
 又	iu
 將就	jiong qiu
-只好
 毋…斯	m…sii
-不…就 僅海陸用
 毋…就	m…qiu
-不…就 	　
 毋過	m go
-不過
 毋故	m gu
-但是
 毋係	m he
 就係	qiu he
 毋係…就係	m he…qiu he
-不是…就是
 毋止	m zii
 毋止…越	m zii…iet
-不只…更
 無就	mo qiu
 無就	mo ciu
-或者是、要不
 哪	nai
 樣	ngiong
 續	sa
 會	voi
-哪、怎、竟然、如何 	後接如：「知」、「會」…
 偏偏	pien pien
 同	tung
 摎	lau
-和、跟、與、及、以及
 正會	zang voi
-才會
-2.表從屬關係：連接二個或二個以上有從屬關係的詞、語、句。
+#2.表從屬關係：連接二個或二個以上有從屬關係的詞、語、句。
 不管	but gon
 不論	but lun
 直直到	ciit ciit do
-一直到 	　
 除非	cu fi
 除非	cu fui
 除忒	cu tet
-除了、除非
 當過	dong go
-勝過、贏過
 假使	gai sii
 假使	ga sii
-假如
 該就	ge qiu
-假使
 撿採	giam cai
-如果、萬一 	　
-緊…緊	gin…gin
-越…越 	例如：「緊來緊多」、「緊來緊少」。
 係	he
-假如 	例如：「係講…」。
 一直到	it ciit do
-越…越	iet…ied
 越	iet
-越	rhat
 毋當	m dong
-不如
 毋管	m gon
-不管
 無	mo
-若非、若無、若不是 	同英文「without」的用法。
 無論	mo lun
-無論、不論 	　
-若係…該就	na he…ge qiu(zu)
-na he…gai ciu 	若是…那就 	　
+#若係…該就	na he…ge qiu(zu)
+#na he…gai ciu 	若是…那就 	　
+該就
 隨…隨	sui…sui
-隨…隨 	例如：「隨來隨鬥」、「隨傳隨到」。
+隨來隨鬥
+隨傳隨到
 雖然	sui ien
 雖然	sui rhan
 作當	zok dong
-假如
 
 #助詞：幫助詞與語句表明說話時的神情、態度。
 #1.表小稱
 #客家語詞目 	四縣腔音讀 	海陸腔音讀 	解釋 	備註
 仔	e
-子 	1.「仔」海陸音er。
+仔	ze
+仔	za
 #2.語意上與小稱近者。
 #3.為名詞或名物化之動詞。
 #2.表體貌
-仔	e
-1.為形容詞、副詞。
+#1.為形容詞、副詞。
 #2.語意屬「輕、薄、短、小」者，或「降低程度」者，如︰成下仔、一駁仔、一息仔等。
 #3.形容詞後，如︰眼精精仔（不一定於重疊形容詞後）。
 #4.與國語詞詞尾有「兒」意相合者，如︰慢慢兒→慢慢仔。
@@ -1082,124 +829,85 @@ na he…gai ciu 	若是…那就 	　
 等	den
 等	nen
 等	len
-們 
-nen、len為六堆地區用法。
 兜	deu
-四縣︰這兜、這儕(人)；
-海陸︰(這)兜、兜儕(人)。
+這兜
+這儕
 个	ge
-的
 #4.時態動詞
-誒/咧	e 
-le 	了 	表狀態改變。
+誒	e
+咧	e
 #1.「誒」僅四縣用，如︰黃誒、白誒。
 #2.「咧」僅海陸用，如︰黃咧、白咧。
 等	den
-著，進行式 	如︰行等，nen為六堆地區用法
 了	le
-了，過去式 	1.  海陸又音liau，如︰食了正去
+了	liau
 #2. 「了」音liau時，與「過、完、好」同，為表經驗之虛詞。
 #★「了」音le/lio為語尾詞，無義。如︰差多了。
 忒了	tet le
-完了，過去完成式 	　
+
 #5.語氣助詞：用來幫助說話的口氣，有決定、疑問、商榷、驚歎等…之意，通常用於句尾。
 啊	a
-疑問
 啊了	a le
-語尾詞 	1.表嘗試性，意量少，如︰擦擦啊了、看看啊了、行行啊了。
+# 語尾詞 	1.表嘗試性，意量少，如︰擦擦啊了、看看啊了、行行啊了。
 #2.若為︰擦擦啊、行行啊，則「啊」音a。
 #3.「啊了」a le四 ha er海，ha可虛化為a，故可暫用「啊」。
 嘎	ga
-疑問 	如︰係恁呢嘎？
 个	ge
 个	gai
-陳述
 个話	ge fa
-的話
 係無	he mo
-是嗎?表反問
 啦	la
 啦	la
 了	le
-完成
 囉	lo
-完成
 吂	mang
-mang 	未曾　
 無	mo
-mo 	疑問 	　
 無	mo
-mo 	嗎?表疑問 	　
 哪	na
-na 	祈使 	　
 呢	no
 噢	o
 噯	oi
-語氣詞。表疑問 	如︰噯？敢係這條路？
 定定	tin tin
-tin tin 	而已
 
 ##常用虛詞表
 #嘆詞：表示感嘆、呼喚、應答，在句子中的位置較靈活，一般在句子開端，往往一詞便可成句，意思豐富。
 #1.表感嘆：表感傷或讚歎而發的聲音。
 #客家語詞目 	四縣腔音讀 	海陸腔音讀 	釋義 	備註
 啊	a
-a 	表示驚訝 	語氣短促。
 唉喲	ai io
-ai io 	表示驚訝或痛苦的語氣 	　
 唉哦	ai o
-ai o 	哎唷，表示驚訝 	　
 唉	ai
-ai 	唉，表示傷感、惋惜、無奈 	　
 唉哉	ai zai
-ai zai 	表讚美 	　
 唭	gia
 唭	kia
-gia、kia 	表不以為然
+唭	gia
 吓	ha
-ha 	表示驚訝、疑問、反問 	語氣拉長。
 嘿	he
 嘿嘿	he he
-he he 	表高興 	有幸災樂禍之意。
 哈哈	ha ha
-哈哈，表示高興
 咍	hai
-表嘆氣
 嘻嘻	hi hi
-喔	ho　
+喔	ho
 呵呵	ho ho
-呵呵，表示輕微指責、警告的語氣 	「呵呵」︰海陸音亦為ho ho。
 嗚呼	o ho
-o ho 	表驚訝、可惜
 哀哉	oi zai
-oi zai 	表讚美 	　
 哀哉	oi zoi
-表可惜
 哇	ua
-表示驚嘆
 #2.表呼應：表示呼問或應諾而發的聲音。
 啊	a
-表示讚嘆
 誒	e
-命令、打招呼
 呣	hm
-表示禁止、警告、讚許 	　
 哼	hng
-表示憤怒、鄙斥
 無唉哉	mo oi zai
 嗯	n
-表懷疑的語氣 	如︰嗯！有毋著無（嗯！有沒有錯呀？）
 嗯	n
-表贊同語氣	如︰嗯！好。
 嗯	ng
-表示允諾、肯定 	　
 噯	oi
-表示叫喚 	　
 
 
-#根據「臺灣客家語拼音輸入法(四縣,調型)」修改而來
-#教育部國語推行委員會 (http://www.edu.tw/mandr/)
-#查詢匹配入聲字韻尾的正則表達式：[aoeiu][ptk]
+# 根據「臺灣客家語拼音輸入法(四縣,調型)」修改而來
+# 教育部國語推行委員會 (http://www.edu.tw/mandr/)
+# 查詢匹配入聲字韻尾的正則表達式：[aoeiu][ptk]
 阿	a
 啊	a
 椏	a
@@ -1262,7 +970,7 @@ oi zai 	表讚美 	　
 拜	bai
 跛	bai
 排	bai
-bai	𥯟
+𥯟	bai
 扳	ban
 班	ban
 般	ban
@@ -1354,7 +1062,7 @@ bai	𥯟
 碧	bit
 鷝	bit
 咇	bit
-bit	𩜰
+𩜰	bit
 哵	biet
 鱉	biet
 撆	biet
@@ -1454,7 +1162,7 @@ bit	𩜰
 賒	ca
 捙	ca
 插	cap
-cap	𥯥
+𥯥	cap
 雜	cap
 察	cat
 掣	cat
@@ -1501,10 +1209,10 @@ cap	𥯥
 綻	can
 撐	cang
 程	cang
-cang	𥺆
+𥺆	cang
 晟	cang
 鄭	cang
-cang	𣛮
+𣛮	cang
 操	cau
 抄	cau
 吵	cau
@@ -1758,7 +1466,7 @@ cang	𣛮
 褡	dap
 答	dap
 溚	dap
-dap	𥉌
+𥉌	dap
 踏	dap
 貼	dap
 笪	dat
@@ -1917,7 +1625,7 @@ dap	𥉌
 賭	du
 肚	du
 妒	du
-du	𪐞
+𪐞	du
 蠹	du
 對	du
 在	du
@@ -1932,7 +1640,7 @@ du	𪐞
 涿	duk
 㧻	duk
 啄	duk
-dui	𢶀
+𢶀	dui
 兌	dui
 對	dui
 在	dui
@@ -1956,7 +1664,7 @@ dui	𢶀
 凍	dung
 崠	dung
 棟	dung
-dung	𠖄
+𠖄	dung
 中	dung
 唉	e
 欸	e
@@ -1988,7 +1696,7 @@ dung	𠖄
 活	fat
 闊	fat
 掝	fak
-fak	𤐰
+𤐰	fak
 淮	fai
 槐	fai
 懷	fai
@@ -2062,7 +1770,7 @@ fak	𤐰
 貨	fo
 禍	fo
 霍	fok
-fok	𤐰
+𤐰	fok
 灰	foi
 歡	fon
 緩	fon
@@ -2391,7 +2099,7 @@ fok	𤐰
 卷	gien
 捲	gien
 眷	gien
-gien	𠗻
+𠗻	gien
 勾	gieu
 鉤	gieu
 溝	gieu
@@ -2479,7 +2187,7 @@ gien	𠗻
 葛	got
 咯	gok
 擱	gok
-gok	𢼛
+𢼛	gok
 閣	gok
 各	gok
 郭	gok
@@ -2566,7 +2274,7 @@ gok	𢼛
 砉	guak
 乖	guai
 拐	guai
-guai	𧊅
+𧊅	guai
 怪	guai
 關	guan
 慣	guan
@@ -2620,7 +2328,7 @@ guai	𧊅
 下	ha
 吓	ha
 夏	ha
-hap	𤸱
+𤸱	hap
 蓋	hap
 合	hap
 盒	hap
@@ -3369,7 +3077,7 @@ hap	𤸱
 茄	kio
 瘸	kio
 卻	kiok
-kioi	𤸁
+𤸁	kioi
 匡	kiong
 筐	kiong
 框	kiong
@@ -3411,7 +3119,7 @@ kioi	𤸁
 疴	ko
 可	ko
 課	ko
-kok	𤌍
+𤌍	kok
 廓	kok
 搉	kok
 榷	kok
@@ -3502,7 +3210,7 @@ kok	𤌍
 漯	lap
 塌	lap
 喇	lat
-lat	𤊶
+𤊶	lat
 瘌	lat
 辣	lat
 列	lat
@@ -3848,7 +3556,7 @@ lia	𠺅
 脈	mak
 麥	mak
 麼	mak
-mak	𢫦
+𢫦	mak
 埋	mai
 買	mai
 賣	mai
@@ -4093,7 +3801,7 @@ mak	𢫦
 吾	nga
 牙	nga
 芽	nga
-nga	𤘅
+𤘅	nga
 崖	nga
 衙	nga
 雅	nga
@@ -4102,12 +3810,12 @@ nga	𤘅
 囓	ngat
 軋	ngat
 挨	ngai
-ngai	𠊎
+𠊎	ngai
 捱	ngai
 礙	ngai
 崖	ngai
 癌	ngam
-ngam	𪘒
+𪘒	ngam
 頷	ngam
 岩	ngam
 岸	ngan
@@ -4120,7 +3828,7 @@ ngam	𪘒
 摮	ngau
 熬	ngau
 傲	ngau
-ngau	𢳆
+𢳆	ngau
 咬	ngau
 耳	ngi
 餌	ngi
@@ -4153,7 +3861,7 @@ ngau	𢳆
 捻	ngiap
 㘝	ngiap
 攝	ngiap
-ngiap	𥍉
+𥍉	ngiap
 業	ngiap
 額	ngiak
 逆	ngiak
@@ -4215,7 +3923,7 @@ ngiap	𥍉
 樣	ngiong
 牛	ngiu
 扭	ngiu
-ngiu	𪖐
+𪖐	ngiu
 肉	ngiuk
 玉	ngiuk
 獄	ngiuk
@@ -4360,7 +4068,7 @@ no	𧩣
 派	pai
 沛	pai
 披	pai
-pai	𠜱
+𠜱	pai
 伴	pan
 拌	pan
 絆	pan
@@ -4595,7 +4303,7 @@ pai	𠜱
 席	qiak
 蓆	qiak
 漸	qiam
-qiam	𠠃
+𠠃	qiam
 簽	qiam
 籤	qiam
 塹	qiam
@@ -4694,7 +4402,7 @@ qiam	𠠃
 續	sa
 抓	sa
 圾	sap
-sap	𠎷
+𠎷	sap
 歃	sap
 涉	sap
 煠	sap
@@ -4910,6 +4618,7 @@ sau	𤍒
 鎖	so
 煞	sot
 刷	sot
+啜	sot
 說	sot
 勺	sok
 芍	sok
@@ -5025,7 +4734,7 @@ sau	𤍒
 遜	sun
 雙	sung
 鬆	sung
-sung	𢱤
+𢱤	sung
 慫	sung
 宋	sung
 送	sung
@@ -5084,7 +4793,7 @@ sung	𢱤
 在	te
 忒	tet
 踢	tet
-ten	𢯭
+𢯭	ten
 鄧	ten
 跈	ten
 藤	ten
@@ -5811,622 +5520,8 @@ ten	𢯭
 粽	zung
 
 
-#來源於：客語信望愛http://hakka.fhl.nt
-#客語羅馬字漢羅詞庫輸入法 
-'	'
--	-
-!	!
-！	pt
-(	(
-)	)
-*	*
-***	***
-,	,
-，	pt
-、	pt
-.	.
-．	pt
-。	pt
-/	/
-:	:
-：	pt
-；	pt
-?	?
-？	pt
-[	[
-\	\
-]	]
-^	^
-_	_
-`	`
-|	|
-~	~
-《》	pt
-《台日大辭典》	thgths
-「」	pt
-『』	pt
-+	+
-<	<
-=	=
->	>
-↑	pt
-→	pt
-↓	pt
-─	pt
-a	a
-A	aa
-Aａｂｃｄｅｆｇｈｉｊｋｍｎｏｐｑｒｓｔｕｖｗｘｙｚ	/S
-an	an
-an-giong	agiog
-an-ngiong	angion
-b	b
-B	bb
-begin	%chardef
-begin	%keyname
-c	c
-C	cc
-chang	chang
-chang	zag
-chang有	zagyu
-chhang眼	caggia
-chhang眼	caggie
-chhang有	zangyu
-chhii	chhii
-chhii	cii
-Chhin	ccin
-chhin	cin
-chhin多	cinto
-chhin歡喜	cfh
-chhok	cok
-chhok到	cokto
-chhok火	cokfo
-chhok著	cokten
-chim	chim
-chim	zim
-chim過	zimko
-chim喙	zimzoi
-cii到	ciito
-cii掉	ciithe
-cii狗	ciikie
-cii過	ciiko
-cii害	ciihoi
-cii喊	ciihem
-cii好	ciiho
-cii橫	ciivag
-cii淨	ciicia
-cii來	ciiloi
-cii牛	ciigiu
-cii去	ciihi
-cii人	ciigin
-cii人罪	cgc
-cii死	ciisi
-cii贏	ciiyag
-cin-ziag	cinzia
-cin多	cinto
-cip-cip	cipcip
-cok	cok
-cok到	cokto
-cok火	cokfo
-cok著	cokten
-cu人窩	cgv
-d	d
-D	dd
-e	e
-E	ee
-em	em
-e-mail	email
-em耳	emgi
-em耳	emngi
-em蓋	emkoi
-em喙	emtsoi
-em喙	emzoi
-em面	emmien
-em著	emten
-en	en
-end	%chardef
-end	%keyname
-en-teu	enteu
-en-teu-ke	etk
-en等	enteu
-f	f
-F	ff
-fit	fit
-fit出	fitcut
-fit出	fittshut
-fit到	fitto
-fit掉	fitthe
-fit給	fitpun
-fit來	fitloi
-fit落	fitlok
-fit入	fitgip
-fit入	fitngip
-fit下	fitha
-g	g
-G	gg
-ga呾	gata
-gia	gia
-giap	giap
-giap目	giapmu
-giong-pan	giogpa
-h	h
-H	hh
-he	he
-hen	hen
-hen-hen	henhen
-het	het
-hia	hia
-hiap下	hiapha
-hip	hip
-hip熱	hipgie
-hip熱	hipngie
-hip死	hipsi
-hip著	hipten
-hog床	hogcog
-hog起	hoghi
-hog起來	hhl
-hog身	hogsii
-Ho-lo話	hlf
-Ho-lo人	hlg
-hong	hog
-hong	hong
-hong起來	l
-i	i
-I	ii
-j	j
-J	jj
-k	k
-K	kk
-kag倒	kagto
-kam	kam
-kang倒	kagto
-kang倒	kangto
-ke	ke
-ke-teu	keteu
-ke話	kefa
-ke人	kegin
-ke時	kesii
-ke銀	kegiun
-ke銀	kengiun
-khai	khai
-khai水	khaisu
-khai贏	khaiya
-khai走	khaitse
-khai走	khaize
-khak	khak
-khak到	khakto
-khak死	khaksi
-khak有	khakyu
-khak住	khakhe
-khak著	khakte
-kha無	khamo
-khia	khia
-khioi	khioi
-khioi懶	khioil
-khioi死	khiois
-khioi痶	khioit
-khiug-ha	khiugh
-khiung-ha	khiung
-khoan	khoan
-khoan著	khoant
-khoan走	khoants
-khoan走	khoanz
-khong-ten	khogte
-khong-ten	khongt
-ki	ki
-kiak-kiak	kiakki
-ki-he	kihe
-Ki-he	kkihe
-ki-ke	kike
-kit-kit顫	kkts
-kit-kit顫	kkz
-kiug出	kiugcu
-kiug到	kiugto
-kiug多	kiugto
-kiug過	kiugko
-kiug加	kiugka
-kiug下	kiugha
-kiug有##	kiugyu
-kiug子	kiugzi
-kiuk	kiuk
-kiuk車	kiukca
-kiuk車	kiuktsha
-kiuk出	kiukcu
-kiuk出	kiuktshu
-kiuk到	kiukto
-kiuk鬼	kiukku
-kiuk來	kiuklo
-kiuk離	kiukli
-kiuk牛	kiukgi
-kiuk牛	kiukngi
-kiuk去	kiukhi
-kiuk入	kiukgi
-kiuk入	kiukngi
-kiuk散	kiuksa
-kiuk著	kiukte
-kiuk轉	kiuktso
-kiuk轉	kiukzo
-kiuk走	kiuktse
-kiuk走	kiukze
-kiung	kiug
-kiung	kiung
-kiung出	kiungtshu
-kiung到	kiungto
-kiung多	kiungto
-kiung過	kiungko
-kiung加	kiungka
-kiung下	kiungha
-kiung有##	kiungyu
-kiung子	kiungtsi
-KKS	%ename
-KKS-Hakka_V.	/N客語羅馬字漢羅詞庫輸入法
-KKS-TLHakkaV.	/N客語羅馬字漢羅詞庫輸入法
-KKS客語漢羅輸入法	kkshgs
-koh	koh
-Koi輕鬆客語漢羅輸入法	kkhshg
-ku-ku	kuku
-l	l
-L	ll
-lah	lah
-lai-e	laie
-lak青	lakcia
-lak青	laktshia
-lau	lau
-Lau	llau
-lau到	lauto
-lau你	laugi
-lau你講	lgk
-lia	lia
-lia-ha	liaha
-Lia-ha	lliaha
-lia-ke	liake
-lia-teu	liateu
-lia篇	liaphi
-lim	lim
-lim茶	limca
-lim茶	limtsha
-lim到	limto
-lim掉	limthe
-lim夠	limla
-lim過	limko
-lim酒	limtsiu
-lim酒	limziu
-lim了	limlia
-lim剩	limcun
-lim剩	limtshun
-lim食	limsii
-lim水	limsui
-lim血	limhie
-lim油	limyu
-lim足	limtsiu
-lim足	limziu
-lim醉	limtsui
-lim醉	limzui
-lug-lug滾	llk
-lung	lug
-lung	lung
-lung-lung滾	llk
-lut	lut
-lut掉	lutthe
-lut毛	lutmo
-lut剩	lutcun
-lut剩	luttshun
-lut腕	lutvon
-m	m
-M	mm
-ma	ma
-ma-he	mahe
-mak-ke	makke
-mang	mag
-mang	mang
-mang大	magtha
-mang大	mangtha
-mang到	magto
-mang到	mangto
-mang光	magkog
-mang光	mangkong
-mang嫁	magka
-mang嫁	mangka
-mang來	magloi
-mang來	mangloi
-mang起	maghi
-mang起	manghi
-mang食	magsii
-mang食	mangsii
-mang識	magsii
-mang識	mangsii
-mang熟	magsuk
-mang熟	mangsuk
-mang死	magsi
-mang死	mangsi
-mang痛	magthu
-mang痛	mangthu
-mang係	maghe
-mang係	manghe
-mang有	magyu
-mang有	mangyu
-mang轉	magzon
-mang轉	mangtson
-ma有	mayu
-me	me
-met到	metto
-met來	metloi
-met耍	metsa
-met衰	metsoi
-me會	mevoi
-me無	memo
-me係	mehe
-me有	meyu
-m-he	mhe
-mo	mo
-mo-oi	mooi
-m-sii	msii
-m過	mko
-m好	mho
-m會	mvoi
-m記得	mkt
-m識	msiit
-M使	mmsu
-m使	msu
-n	n
-N	nn
-nai	nai
-nai邦	naipag
-nai邦	naipang
-nai儕	naisa
-nai城	naisag
-nai城	naisang
-nai點	naitia
-nai垤	naite
-nai兜	naiteu
-nai個	naike
-nai國	naikoe
-nai家	naika
-nai去	naihi
-nai日	naigit
-nai日	naingit
-nai省	naisen
-nai條	naithi
-nai位	naivi
-nai項	naihog
-nai項	naihong
-nai樣	naiyog
-nai樣	naiyong
-nai一	naiyit
-nai有	naiyu
-nai只	naitsak
-nai只	naizak
-nai知	naiti
-nai種	naitsung
-nai種	naizug
-nai族	naicuk
-nai族	naitshuk
-nai組	naitsu
-nai組	naizu
-nai座	naico
-nai座	naitsho
-nem出	nemcut
-nem出	nemtsh
-nga	ga
-nga	nga
-ngai	gai
-Ngai	ggai
-ngai	ngai
-ngai-oi	gaioi
-ngai-oi	ngaioi
-ngai-teu	gaiteu
-ngai-teu	ngaite
-ngai-teu-ke	gtk
-ngai-teu-ke	ngtk
-ngai等	gaiteu
-ngai等	ngaiteu
-nga爸	gapa
-nga呾	ngata
-nga媽	game
-ngia	gia
-ngia	ngia
-ngiam-ngiam	giamgi
-ngiam-ngiam	ngiamngi
-ngiap	ngiap
-ngiap目	ngiapmu
-ngiong-pan	ngiong
-ngi-teu	giteu
-ngi-teu	ngiteu
-o	o
-O	oo
-oi	oi
-oi來	oiloi
-oi拚chang會贏	opzvy
-oi寫	oisia
-oi仔	oie
-oi做	oizo
-o-no	ono
-p	p
-P	pp
-pang	pag
-pang	pang
-pang-pag	pagpag
-pang-pang	pangpang
-pang出	pagcut
-pang出	pangtshut
-pang到	pagto
-pang到	pangto
-pang得	pagtet
-pang得	pangtet
-pang掉	pagthe
-pang掉	pangthe
-pang斷	pagtho
-pang斷	pangtho
-pang起	paghi
-pang起	panghi
-pang入	paggip
-pang入	pangngip
-pang直	pagcii
-pang直	pangtshii
-pang著	pagten
-pang著	pangten
-pen	pen
-pen背	penpoi
-pen到	pento
-pen著	penten
-phan	phan
-phan過	phanko
-phan過節	phkts
-phan過節	phkz
-phan山	phansa
-phin	phin
-phin下	phinha
-phi-phi	phphph
-phog風	phogfu
-phong風	phongfu
-pit-pit	pitpit
-pok	pok
-pun	pun
-pun大家	pthk
-pun人	pungin
-pu娘	pugiog
-pu娘	pungiong
-q	q
-Q	qq
-r	r
-R	rr
-s	s
-S	ss
-sat-mang	satman
-sep	sep
-sug	sug
-sug出	sugcut
-sug到	sugto
-sug橫	sugvag
-sug開	sugkho
-sug落	suglok
-sug入	suggip
-sug下	sugha
-sug走	sugzeu
-sun	sun
-sung	sung
-sung出	sungtshut
-sung到	sungto
-sung橫	sungvang
-sung開	sungkho
-sung落	sunglok
-sung入	sungngip
-sung下	sungha
-sung走	sungtseu
-sun-heu	sunheu
-sun口	sunheu
-sun頭	sunthe
-t	t
-T	tt
-tam	tam
-tam了	tamlia
-tap-tap	taptap
-ten	ten
-tep	tep
-tep出	tepcut
-tep出	teptshut
-tep到	tepto
-tep掉	tepthe
-tep給	teppun
-tep來	teploi
-tep爛	teplan
-tep落	teplok
-tep槍	tepcio
-tep槍	teptshio
-tep去##	tephi
-tep入	tepgip
-tep入	tepngip
-tep石	tepsak
-tep石機	tsk
-tep死	tepsi
-tep碎	tepsui
-tep著	tepten
-teu	teu
-teu到	teuto
-teu給	teupun
-teu股	teuku
-teu酒	teutsiu
-teu酒	teuziu
-teu起	teuhi
-teu去	teuhi
-teu水	teusui
-teu著	teuten
-thak	thak
-thak到	thakto
-thak好	thakho
-thak著	thakte
-thak做	thaktso
-thak做	thakzo
-then	then
-then手	thensu
-then尋	thenci
-then尋	thentshi
-thet重	thetcu
-thet重	thetts
-thu	thu
-thu出	thucut
-thu出	thutshut
-thu大	thutha
-thu過	thuko
-thu來	thuloi
-thu路	thulu
-thu去	thuhi
-thu入	thugip
-thu入	thungip
-tsang	tsang
-tshii	cii
-tshii	tshii
-tshii到	tshiito
-tshii掉	tshiithe
-tshii狗	tshiikie
-tshii過	tshiiko
-tshii害	tshiihoi
-tshii喊	tshiihem
-tshii好	tshiiho
-tshii橫	tshiivang
-tshii淨	tshiitshia
-tshii來	tshiiloi
-tshii牛	tshiingiu
-tshii去	tshiihi
-tshii人	tshiingin
-tshii人罪	tshngtsh
-tshii死	tshiisi
-tshii贏	tshiiyang
-tshin-tsiang	tshint
-tshin多	tshint
-tship-tship	tshipt
-tshok	tshok
-tshok到	tshokt
-tshok火	tshokf
-tshok著	tshokt
-tshu人窩	tshngv
-tsim	tsim
-tsim	zim
-tsim過	tsimko
-tsim喙	tsimtsoi
-tui	tui
-tun仔	tune
-tu-to	tuto
-u	u
-U	uu
-UTF-	%encoding
-v	v
-V	vv
-vok	vok
-w	w
-W	ww
-x	x
-X	xx
-y	y
-Y	yy
-YKS四縣KKS漢羅輸入法	%cname
-YKS四縣KKS漢羅輸入法	%scname
-YKS四縣KKS漢羅輸入法	%tcname
-z	z
-Z	zz
-zag	tsang
-zag	zag
-zim過	zimko
-zim喙	zimzoi
+# 來源於：客語信望愛http://hakka.fhl.nt
+# 客語羅馬字漢羅詞庫輸入法 
 阿	a
 阿	o
 阿爸	apa
@@ -24543,7 +23638,7 @@ zim喙	zimzoi
 客語	hakgi
 客語	hakngi
 客語	hg
-客語羅馬字漢羅詞庫輸入法	#
+客語羅馬字漢羅詞庫輸入法
 客語聖經	hgsk
 客語信望愛	hgsmo
 客語影音教學專區	hgyykh
@@ -53715,7 +52810,7 @@ zim喙	zimzoi
 酢	zok
 兀鷹	vuen
 
-#客語詞彙，來自與臺灣客語輸入法
+# 客語詞彙，來自與臺灣客語輸入法
 㐁舌
 㓾人
 㓾頭
@@ -64129,8 +63224,8 @@ zim喙	zimzoi
 
 
 
-#此為從 崇正客語輸入法 碼錶中提取出來的客家語字詞庫，共148748隻詞條，僅作學習交流使用，版權仍歸SYNDICT.COM 所有。
-#網址：http://syndict.com/hakka/ime/
+# 此為從 崇正客語輸入法 碼錶中提取出來的客家語字詞庫，共148748隻詞條，僅作學習交流使用，版權仍歸SYNDICT.COM 所有。
+# 網址：http://syndict.com/hakka/ime/
 瘂	a
 䃁	a
 亞	a
