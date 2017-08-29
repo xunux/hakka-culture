@@ -24,53 +24,77 @@ switches:
   - name: simplification
     states: [ 漢字, 汉字 ]
 
-engine:
-  processors:
-    - ascii_composer
-    - recognizer
-    - key_binder
-    - speller
-    - punctuator
-    - selector
-    - navigator
-    - express_editor
-  segmentors:
-    - ascii_segmentor
-    - matcher
-    - abc_segmentor
-    - punct_segmentor
-    - fallback_segmentor
-  translators:
-    - punct_translator
-    - script_translator
-    - reverse_lookup_translator
-  filters:
-    - simplifier
-    - uniquifier
-
+engine:                             # 輸入引擎設定，即掛接組件的「處方」
+  processors:                       # 一、這批組件處理各類按鍵消息
+    - ascii_composer                # ※ 處理西文模式及中西文切換
+    - recognizer                    # ※ 與 matcher 搭配，處理符合特定規則的輸入碼，如網址、反查等
+    - key_binder                    # ※ 在特定條件下將按鍵綁定到其他按鍵，如重定義逗號、句號爲候選翻頁鍵
+    - speller                       # ※ 拼寫處理器，接受字符按鍵，編輯輸入碼
+    - punctuator                    # ※ 句讀處理器，將單個字符按鍵直接映射爲文字符號
+    - selector                      # ※ 選字處理器，處理數字選字鍵、上、下候選定位、換頁鍵
+    - navigator                     # ※ 處理輸入欄內的光標移動鍵
+    - express_editor                # ※ 編輯器，處理空格、回車上屏、回退鍵等
+    # - fluid_editor                  # ※ 句式編輯器，用於以空格斷詞、回車上屏的【注音】、【語句流】等輸入方案，替換 express_editor，也可以寫作 fluency_editor
+  segmentors:                       # 二、這批組件識別不同內容類型，將輸入碼分段
+    - ascii_segmentor               # ※ 標識西文段落
+    - matcher                       # ※ 標識符合特定規則的段落，如網址、反查等
+    - abc_segmentor                 # ※ 標識常規的文字段落
+    - punct_segmentor               # ※ 標識句讀段落
+    - fallback_segmentor            # ※ 標識其他未標識段落
+  translators:                      # 三、這批組件翻譯特定類型的編碼段爲一組候選文字
+    - echo_translator               # ※ 沒有其他候選字時，回顯輸入碼
+    - punct_translator              # ※ 轉換標點符號
+    - script_translator             # ※ 腳本翻譯器，用於拼音等基於音節表的輸入方案
+    - reverse_lookup_translator     # ※ 反查翻譯器，用另一種編碼方案查碼
+  filters:                          # 四、這批組件過濾翻譯的結果
+    - simplifier                    # ※ 繁簡轉換
+    - uniquifier                    # ※ 過濾重複的候選字，有可能來自繁簡轉換
+    
+# - fluid_editor      # ※ 句式編輯器，用於以空格斷詞、回車上屏的【注音】、【語句流】等輸入方案，替換 express_editor，也可以寫作 fluency_editor
+# - chord_composer    # ※ 和絃作曲家或曰並擊處理器，用於【宮保拼音】等多鍵並擊的輸入方案
+# - table_translator  # ※ 碼表翻譯器，用於倉頡、五筆等基於碼表的輸入方案，替換 script_translator
+                                          
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
   algebra:
-    - derive/^jy?([aeiou])/y$1/  # 容錯 je -> ye, jyu -> yu
-    - derive/^jyu/ju/            # 容錯 jyu -> ju
-    - derive/yu/y/               # 教院式 jyu -> jy
-    - derive/eoi$/oey/           # 教院式
-    - derive/eoi$/eoy/           # 容錯
-    - derive/eo/oe/              # 教院式
-    - derive/oe(ng|k)$/eo$1/     # 容錯
-    - derive/aa$/a/              # 容錯
-    - abbrev/^([a-z]).+$/$1/     # 首字母簡拼
-    - derive/^z/dz/              # 教院式
-    - derive/^c/ts/              # 教院式
-    - abbrev/^(ng).+$/$1/        # 聲母簡拼
-    - abbrev/^([gk]w).+$/$1/     # 聲母簡拼
-    - abbrev/^(dz).+$/$1/        # 聲母簡拼
-    - abbrev/^(ts).+$/$1/        # 聲母簡拼
+    - erase/^xx$/
+    - derive/i([ao])ng$/$1ng/       # 适用于介音消失的
+    - derive/eu/er/                 # eu 喉音
+    - derive/uk$/ek/                # uk 韵写成 ek
+    - derive/ung$/eng/
+    - derive/^i/y/                  # 一些 写成 i 开头的声母 用 y表示，比如 iung， 可以用yung表示
+    - derive/i/yi/
+    - derive/un$/en/
+    - derive/^g/j/                  # 适用于 g k h 颚化成 j q x 的地方
+    - derive/^k/q/
+    - derive/^h/x/
+    - derive/([aoeiu])p$/$1t/       # 入声 p 韵尾并入 t韵尾的地方
+    - derive/([ai])m$/$1n/          # m 韵尾 合入 n 韵
+    - derive/^([zcs])h$/$1/          # zh, ch, sh => z, c, s ,适用于zh ch sh z c s 不分的地方
+    - derive/ing$/in/               # ing => in
+    
+    # - derive/([aoeiu])p$/$1b/         # 入声字 p t k 韵尾变换成 b d g ，臺灣用
+    # - derive/([aoeiu])t$/$1d/
+    # - derive/([aoeiu])k$/$1g/
+
+    - derive/^v/w/                  # v 用 w代替
+    - derive/au$/ao/                # au 和 ao 等價
+    - derive/ien$/ian/              # 容錯，適用於 區分不了 ien 和 ian 的地方。類似還有 iam 難把握 ~
+    - derive/^([zcs]i)i$/$1/        # 容錯，用於區分不出ii 和 i 的門外漢。團音zii cii sii 尖音 zi ci si 
+    # 模糊音定義先於簡拼定義，可令簡拼支持以上模糊音
+    - abbrev/^([a-z]).+$/$1/        # 首字母簡拼   
+    - abbrev/^(ng).+$/$1/           # 聲母簡拼
+    - abbrev/^([zcs]h).+$/$1/
+
 
 translator:
   dictionary: hakka_pinyin
-  spelling_hints: 9
+  # spelling_hints: 5
+  preedit_format:
+    - xform/([nl])v/$1ü/            # 输入 nv 上屏显示 nü
+    - xform/^w/v/                   # 输入的 w 上屏显示为 v， 如 弯路， 键入 wan lu ，上屏显示 van lu
+    - xform/ao$/au/                 # 输入的 ao 上屏显示 为 au
 
 reverse_lookup:
   dictionary: luna_pinyin
