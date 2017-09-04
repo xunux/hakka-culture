@@ -77,7 +77,12 @@ speller:
     # - derive/([aoeiu])p$/$1b/         # 入声字 p t k 韵尾变换成 b d g ，臺灣用
     # - derive/([aoeiu])t$/$1d/
     # - derive/([aoeiu])k$/$1g/
-
+    
+    # 适用于 zi ci si + 韵母 变成 团音 ji qi xi + 韵母 的地方。
+    - derive/^zi(u|n|ng|en|ang|eng|ung|ong|)$/ji$1/   # 将 ziong jiong 亲 zin qin
+    - derive/^ci(u|n|ng|en|ang|eng|ung|ong|)$/qi$1/   # 像 ciong qiong
+    - derive/^si(u|n|ng|en|ang|eng|ung|ong|)$/xi$1/   # 想 siong  xiong
+    
     - derive/^v/w/                  # v 用 w代替
     - derive/au$/ao/                # au 和 ao 等價
     - derive/ien$/ian/              # 容錯，適用於 區分不了 ien 和 ian 的地方。類似還有 iam 難把握 ~
@@ -105,6 +110,8 @@ reverse_lookup:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
+    - xform/^w/v/
+    - xform/ao/au/
 
 punctuator:
   import_preset: default
